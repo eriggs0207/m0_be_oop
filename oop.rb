@@ -17,7 +17,7 @@ john = Unicorn.new("John")
 
 message = john.say
 
-# p message
+p message
 
 
 #  Write a class called Vampire
@@ -40,9 +40,9 @@ end
 
 vamp1 = Vampire.new("John")
 
-# p vamp1
+p vamp1
 
-vamp1.drink
+p vamp1.drink
 
 # p vamp1
 
@@ -64,16 +64,17 @@ class Dragon
 def eat
   if @meals >= 4
     @is_hungry = false
+  else is_hungry = true
   end
 end
 end
 end
 
-dragon1 = Dragon.new("John","Mike","blue",3)
+dragon1 = Dragon.new("John","Mike","blue",5)
 
-# p dragon1
+p dragon1
 
-dragon1.eat
+p dragon1.eat
 
 # p dragon1
 
